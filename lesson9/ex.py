@@ -11,9 +11,9 @@
 #     forB.append(i)
 
 a = [[0] * 4] * 5
-print(a)
+# print(*a, sep='\n')
 a[0][0] = 1
-print(a)
+print(*a, sep='\n')
 
 
 # [0, 0, 0, 0]
